@@ -1,0 +1,35 @@
+.rec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.vod {
+  background-color: #151515;
+  color: #c3c3c3;
+  padding: 10px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.recovery {
+  width: 220px;
+  background-color: #2ec4b6;
+  color: #0d0d0d;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.rectext {
+  font-size: 36px;
+  text-align: center;
+}
+
+.other {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}

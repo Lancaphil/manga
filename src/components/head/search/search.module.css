@@ -1,0 +1,14 @@
+.search {
+  width: 320px;
+  height: 32px;
+  margin-left: 784px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #17151b;
+}
+
+.container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
