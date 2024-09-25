@@ -1,0 +1,12 @@
+.head {
+  padding: 12px 0px 12px 17px;
+  font-size: 14px;
+  line-height: 12.44px;
+  font-weight: 400;
+}
+
+.stripe {
+  width: auto;
+  height: 2px;
+  background-color: #312f40;
+}

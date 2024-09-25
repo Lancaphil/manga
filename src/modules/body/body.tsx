@@ -1,8 +1,8 @@
 import styles from "./body.module.css";
-import Best from "@/components/body/best/best";
-import Today from "@/components/body/today/today";
-import Popular from "@/components/body/popular/popular";
-import Latest from "@/components/body/latest/latest";
+import Best from "@/modules/body/best/best";
+import Today from "@/modules/body/today/today";
+import Popular from "@/modules/body/popular/popular";
+import Latest from "@/modules/body/latest/latest";
 
 export default function Body() {
   return (

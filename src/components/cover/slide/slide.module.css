@@ -1,0 +1,53 @@
+.slide {
+  display: flex;
+  position: relative;
+  z-index: 3;
+}
+
+.background {
+  z-index: 1;
+}
+
+.blur {
+  background-image: url("../../../img/cover.png");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  filter: blur(10px);
+}
+
+.text {
+  width: 320px;
+  padding: 45px 0px 0px 40px;
+}
+
+.title {
+  font-size: 22.67px;
+  padding-bottom: 11px;
+}
+
+.description {
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.btn {
+  background-color: #2ec4b6;
+  color: black;
+  padding: 8px 30px 8px 30px;
+  font-size: 11px;
+  line-height: 10.68px;
+  font-weight: 750;
+  margin-top: 24px;
+}
+
+.img {
+  padding: 27px 0px 0px 100px;
+}

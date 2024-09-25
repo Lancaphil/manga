@@ -1,8 +1,8 @@
 import styles from "./header.module.css";
-import Ilogo from "@/components/head/logo/logo";
-import Isearch from "@/components/head/search/search";
-import Inotification from "@/components/head/notification/notification";
-import Iicon from "@/components/head/usericon/icon";
+import Ilogo from "@/modules/header/logo/logo";
+import Isearch from "@/modules/header/search/search";
+import Inotification from "@/modules/header/notification/notification";
+import Iicon from "@/modules/header/usericon/icon";
 
 export default function Head() {
   return (
@@ -13,7 +13,7 @@ export default function Head() {
         <Inotification />
         <Iicon />
       </div>
-      <div className={styles.bottomstripe}>stripe</div>
+      <div className={styles.bottomstripe}></div>
     </header>
   );
 }

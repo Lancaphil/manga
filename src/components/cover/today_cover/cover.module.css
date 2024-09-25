@@ -1,0 +1,33 @@
+.block {
+  height: 330px;
+  padding: 34px 8px 0px 8px;
+}
+
+.img {
+  width: 100vw;
+}
+
+.title {
+  font-size: 12px;
+  line-height: 13.5px;
+}
+
+.genres {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  font-size: 10px;
+  line-height: 6.3px;
+  display: flex;
+}
+
+.genre {
+  color: #888785;
+}
+
+.chapter {
+  font-size: 12px;
+}
+
+.tag {
+  padding-left: 4px;
+}

@@ -1,0 +1,12 @@
+.latest {
+  color: white;
+  background-color: #222222;
+  width: 825px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}

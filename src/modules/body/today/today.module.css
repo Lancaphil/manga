@@ -1,7 +1,8 @@
 .today {
   color: white;
-  background-color: green;
+  background-color: #222222;
   width: 825px;
   height: 365px;
   margin-top: 15px;
+  border-radius: 5px;
 }

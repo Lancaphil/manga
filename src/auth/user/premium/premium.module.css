@@ -1,0 +1,28 @@
+.block {
+  display: flex;
+  justify-content: center;
+  margin: 100px 78px 0px 78px;
+}
+
+.miniblock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  height: auto;
+  margin: 0px 32px 0px 32px;
+  background-color: #101010;
+  padding: 42px 48px 42px 48px;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 28px;
+}
+
+.title2 {
+  font-size: 23px;
+  line-height: 22px;
+  color: #2ec4b6;
+}

@@ -6,7 +6,7 @@ import styles from "./icon.module.css";
 import Button from "@/components/button/button";
 import Modal from "../modal/modal";
 import { useState } from "react";
-import Auth from "@/auth/auth";
+import Auth from "@/auth/authentication/auth";
 
 export default function Iicon() {
   const [modalActive, setModalActive] = useState(false);
